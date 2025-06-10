@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (cepInformado.length !== 8) return;
 
-    fetch(`https://viacep.com.br/ws/${cepInformado}/json/`)
+    fetch(`https://crudcrud.com/api/ed48b4761ee34fb899c1221b528acbd1/clientes/`)
       .then(response => response.json())
       .then(data => {
         if (!data.erro) {
